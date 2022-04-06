@@ -34,12 +34,30 @@ class App extends Component {
       console.log("vowelsArray:", vowelsArray)
 
       // your code here!
+      let charIndex
+      let char
+      if(currentWord[0].match(vowelsArray)) {
+        return currentWord + "way" 
+
+      } else if (currentWord.charAt[1].match(vowelsArray)){
+        return currentWord.slice(1) + "ay"
+      }
+    
+      for (char of currentWord) {
+        if (char.match(vowelsArray)) {
+          charIndex = currentWord.indexOf(char);
+          break;
+        }
+      }
+
+      return currentWord.slice(charIndex) + currentWord.slice(0, charIndex) + "ay";
+    // }
 
       // Remember: console.log is your friend :)
 
 
       // ACTION ITEM: change the value of currentWord to the name of whatever variable you made containing your Pig Latin'd word
-      return currentWord
+      // return currentWord
     })
 
 
