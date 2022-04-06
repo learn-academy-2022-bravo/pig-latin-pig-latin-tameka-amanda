@@ -8,6 +8,14 @@ h1 {
   font-size: 4rem;
 }
 
+h4 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color:black;
+  background-color: aliceblue;
+  opacity: .5;
+}
+
 button {
   margin: 1rem;
   border-radius: 0.5rem;
@@ -19,7 +27,7 @@ footer {
 }
 
 .butcherPig {
-  width: 12rem;
+  width: 20rem;
 }
 
 .userInput {
@@ -31,7 +39,7 @@ footer {
 }
 
 .inputArea {
-  background-color: #606060;
+  background-image: url(https://c.tenor.com/cZdDMSVw1wwAAAAC/sad-cry.gif);
   color: #fff;
   border-radius: .5rem;
   padding: 1rem;
@@ -42,7 +50,7 @@ footer {
     font-size: 2rem;
   }
   .userInput{
-    font-size: 1rem;
+    font-size: 5rem;
     height: 5rem;
     width: 90%;
     padding: 1rem;
